@@ -22,6 +22,7 @@ class AppKernel extends Kernel
             new Srs\NewsBundle\SrsNewsBundle(),
             new Srs\TagBundle\SrsTagBundle(),
             new Srs\CommentBundle\SrsCommentBundle(),
+            new Srs\EventBundle\SrsEventBundle(),
             new Trsteel\CkeditorBundle\TrsteelCkeditorBundle(),
         );
 

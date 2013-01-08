@@ -18,3 +18,7 @@ srs_news:
 srs_comment:
     resource: "@SrsCommentBundle/Resources/config/routing.yml"
     prefix:   /comment
+
+srs_event:
+    resource: "@SrsEventBundle/Resources/config/routing.yml"
+    prefix:   /event
