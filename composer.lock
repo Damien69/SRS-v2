@@ -1,28 +1,28 @@
 {
-    "hash": "a0cdbb8feb90c47ba9cf106a0ab1a983",
+    "hash": "4014162f63dcd3279ce41de714cebb2b",
     "packages": [
         {
             "name": "Trsteel/ckeditor-bundle",
-            "version": "v1.0",
+            "version": "dev-master",
             "target-dir": "Trsteel/CkeditorBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trsteel88/TrsteelCkeditorBundle",
-                "reference": "v1.0"
+                "reference": "104231db339df2c52cf97f43151c9cb3317b4bd2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/trsteel88/TrsteelCkeditorBundle/zipball/v1.0",
-                "reference": "v1.0",
+                "url": "https://github.com/trsteel88/TrsteelCkeditorBundle/archive/104231db339df2c52cf97f43151c9cb3317b4bd2.zip",
+                "reference": "104231db339df2c52cf97f43151c9cb3317b4bd2",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0",
-                "symfony/framework-bundle": "2.*",
-                "symfony/form": "2.*",
-                "twig/twig": ">=1.1,<2.0-dev"
+                "twig/twig": ">=1.1,<2.0-dev",
+                "symfony/framework-bundle": "2.*,<2.3",
+                "symfony/form": ">=2.1,<2.3-dev"
             },
-            "time": "2012-05-05 17:21:46",
+            "time": "2013-01-07 10:34:04",
             "type": "symfony-bundle",
             "autoload": {
                 "psr-0": {
@@ -1292,6 +1292,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "twig/extensions": 20,
-        "kriswallsmith/assetic": 20
+        "kriswallsmith/assetic": 20,
+        "trsteel/ckeditor-bundle": 20
     }
 }
