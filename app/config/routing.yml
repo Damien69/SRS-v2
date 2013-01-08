@@ -6,3 +6,15 @@
 #_internal:
 #    resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
 #    prefix:   /_internal
+
+srs_tag:
+    resource: "@SrsTagBundle/Resources/config/routing.yml"
+    prefix:   /tag/
+
+srs_news:
+    resource: "@SrsNewsBundle/Resources/config/routing.yml"
+    prefix:   /news
+
+srs_comment:
+    resource: "@SrsCommentBundle/Resources/config/routing.yml"
+    prefix:   /comment
