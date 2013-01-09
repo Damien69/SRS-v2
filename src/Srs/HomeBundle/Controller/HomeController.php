@@ -9,7 +9,7 @@ use Srs\EventBundle\Entity\Event;
 
 class HomeController extends Controller
 {
-    public function homeAction(){
+    public function indexAction(){
         
         $news = $this->getDoctrine()
                         ->getEntityManager()
