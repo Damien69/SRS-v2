@@ -22,7 +22,7 @@
     <p>
         <h4>Commentaires :</h4>            
         {% for comment in news.comments %}
-            <i>Par {{ comment.autor }}, le {{ comment.dateCreation|date('Y-m-d H:i:s') }}{% if comment.dateModification %}{{ ' modifié le '~comment.dateModification|date('Y-m-d H:i:s') }} {% endif%}</i>
+            <i>Par {{ comment.autor }}, le {{ comment.dateCreation|date('Y-m-d H:i:s') }}{% if comment.dateModification %}{{ ' modifiÃ© le '~comment.dateModification|date('Y-m-d H:i:s') }} {% endif%}</i>
             <div class="well">
                 {{ comment.body }}
             </div>

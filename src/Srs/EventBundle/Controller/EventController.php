@@ -30,6 +30,9 @@ class EventController extends Controller
         return $this->render('SrsEventBundle:Event:show.html.twig');
     }
     
+    /*
+     * Il faut que tu passes par un formulaire prend exemple sur ceux que l'on à déjà créé
+     */
     public function addAction(){
         $event = new Event();
         $event->setTitle("titreTest");
@@ -44,12 +47,17 @@ class EventController extends Controller
         
         
     }
-    
+    /*
+     * Même chose que addAction
+     */
     public function modifyAction(event $event){
         
         return $this->render('SrsEventBundle:Event:modify.html.twig');
     }
     
+    /*
+     * Même chose que addAction
+     */
     public function removeAction(event $event){
         
         return $this->render('SrsEventBundle:Event:remove.html.twig');

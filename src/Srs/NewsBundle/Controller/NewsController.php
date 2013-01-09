@@ -30,22 +30,7 @@ class NewsController extends Controller
             'news' => $news
         ));
     }
-    
-    public function homeAction(){
-        
-        $news = $this->getDoctrine()
-                        ->getEntityManager()
-                        ->getRepository('SrsNewsBundle:News')
-                        ->findby(array(),
-                                array('dateCreation' => 'desc'),
-                                2,
-                                0);
-        
-        return $this->render('SrsNewsBundle:News:index.html.twig', array(
-            'news' => $news
-        ));
-    }
-    
+   
     public function showAction(News $news)
     {
         return $this->render('SrsNewsBundle:News:show.html.twig', array(

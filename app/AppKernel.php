@@ -24,6 +24,8 @@ class AppKernel extends Kernel
             new Srs\CommentBundle\SrsCommentBundle(),
             new Srs\EventBundle\SrsEventBundle(),
             new Trsteel\CkeditorBundle\TrsteelCkeditorBundle(),
+            //new FOS\UserBundle\FOSUserBundle(),
+            new Srs\HomeBundle\SrsHomeBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
